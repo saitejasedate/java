@@ -95,6 +95,9 @@
             System.out.println("No nodes to remove");
         }
     }
+    public Node getHead() {
+        return start;
+    }
     /**
      * Removes a right.
      */

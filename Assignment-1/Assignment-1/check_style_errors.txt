@@ -11,9 +11,10 @@ Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:75:44: '!=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:76:19: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:81:15: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:109:47: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:98:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:112:47: '!=' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 14 errors.
 Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Node.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Node.java:1: Missing a Javadoc comment. [JavadocType]
@@ -48,18 +49,18 @@ Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:7:5: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:14:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:14:41: Parameter list should be final. [FinalParameters]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:18: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:18:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:18:46: Parameter list1 should be final. [FinalParameters]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:18:64: Parameter list2 should be final. [FinalParameters]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:23: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:23:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:24: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:24:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:24:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:29: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:29:15: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:29:22: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:40: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:45: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:24:46: Parameter list1 should be final. [FinalParameters]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:24:64: Parameter list2 should be final. [FinalParameters]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:29: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:29:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:30:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:35: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:35:15: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:35:22: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:46: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:51: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 22 errors.

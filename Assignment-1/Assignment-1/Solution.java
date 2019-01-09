@@ -7,12 +7,18 @@ class AddLargeNumbers {
     	for (int i = 0; i < str.length; i++) {
             ll.pushLeft(Integer.parseInt(str[i]));
         }
-        System.out.println(ll);
+        // System.out.println(ll);
         return ll;
     }
 
     public static String digitsToNumber(LinkedList list) {
-        return null;
+        String str = "";
+        Node temp = list.getHead();
+        while (temp.getNext() != null) {
+            str += temp.getData();
+            temp.getNext();
+        }
+        return str;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
