@@ -6,7 +6,7 @@
   */
  class LinkedList {
     private int size;
-    private Node start;
+    public Node start;
     LinkedList() {
         this.size = 0;
         this.start = null;
@@ -95,9 +95,9 @@
             System.out.println("No nodes to remove");
         }
     }
-    public Node getHead() {
-        return start;
-    }
+    // public Node getHead() {
+    //     return start;
+    // }
     /**
      * Removes a right.
      */

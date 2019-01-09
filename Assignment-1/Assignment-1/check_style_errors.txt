@@ -1,6 +1,7 @@
 Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:8:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:9:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:9:17: Variable 'start' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:10:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:27:27: Parameter data should be final. [FinalParameters]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:31:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
@@ -11,7 +12,6 @@ Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:75:44: '!=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:76:19: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:81:15: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:98:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:112:47: '!=' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 14 errors.
