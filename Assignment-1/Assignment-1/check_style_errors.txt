@@ -1,4 +1,15 @@
 Starting audit...
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:2:7: Name 'example' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:3:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:3:33: Parameter args should be final. [FinalParameters]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\example.java:4: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 8 errors.
+Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:8:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:9:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\LinkedList.java:10:5: Missing a Javadoc comment. [JavadocMethod]
@@ -49,6 +60,8 @@ Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:7:5: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:13:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:13:41: Parameter list should be final. [FinalParameters]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:23:19: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:23:20: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:27: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:27:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:27:46: Parameter list1 should be final. [FinalParameters]
@@ -63,7 +76,7 @@ Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:65: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Solution.java:70: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 22 errors.
+Checkstyle ends with 24 errors.
 Starting audit...
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\java\Assignment-1\Assignment-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

@@ -14,19 +14,19 @@ class AddLargeNumbers {
         // // System.out.println(list);
         String str = "";
         Node temp = list.getHead();
-        // // System.out.println(temp.getData());
-        // while (temp.getNext() != null) {
-        //     str += temp.getData();
-        //     temp = temp.getNext();
-        // }
-        // // System.out.println(str);
-        // return str+temp.getData();
-        return null;
+        // System.out.println(temp.getData());
+        while (temp.getNext() != null) {
+            str += temp.getData();
+            temp = temp.getNext();
+        }
+        // System.out.println(str);
+        return str+temp.getData();
+        // return null;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        System.out.println(list1);
-        System.out.println(list2);
+        // System.out.println(list1);
+        // System.out.println(list2);
         // Stack<Integer> s1 = new Stack<Integer>();
         // Stack<Integer> s2 = new Stack<Integer>();
         // LinkedList ll = new LinkedList();
