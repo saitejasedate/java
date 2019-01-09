@@ -31,8 +31,8 @@ class AddLargeNumbers {
             list1 = list2;
             list2 = k;
         }
-        System.out.println(list1);
-        System.out.println(list2);
+        // System.out.println(list1);
+        // System.out.println(list2);
         Stack<Integer> s1 = new Stack<Integer>();
         Stack<Integer> s2 = new Stack<Integer>();
         LinkedList ll = new LinkedList();
