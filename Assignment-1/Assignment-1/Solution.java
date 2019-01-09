@@ -11,10 +11,8 @@ class AddLargeNumbers {
     }
 
     public static String digitsToNumber(LinkedList list) {
-        // // System.out.println(list);
         String str = "";
         Node temp = list.getHead();
-        // System.out.println(temp.getData());
         while (temp.getNext() != null) {
             str += temp.getData();
             temp = temp.getNext();
@@ -27,21 +25,25 @@ class AddLargeNumbers {
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         // System.out.println(list1);
         // System.out.println(list2);
-        // Stack<Integer> s1 = new Stack<Integer>();
-        // Stack<Integer> s2 = new Stack<Integer>();
-        // LinkedList ll = new LinkedList();
-        // Node temp1 = list1.getHead();
-        // Node temp2 = list2.getHead();
-        // while (temp1.getNext() != null && temp2.getNext() != null) {
-        //     s1.push(temp1.getData());
-        //     s2.push(temp2.getData());
-        //     temp1 = temp1.getNext();
-        //     temp2 = temp2.getNext();
-        // }
-        // while (s1.isEmpty() && s2.isEmpty()) {
-        //     ll.pushRight(s1.pop()+s2.pop());
-        // }
-        return null;
+        Stack<Integer> s1 = new Stack<Integer>();
+        Stack<Integer> s2 = new Stack<Integer>();
+        LinkedList ll = new LinkedList();
+        Node temp1 = list1.getHead();
+        Node temp2 = list2.getHead();
+        while (temp1 != null && temp2 != null) {
+            // System.out.println("sai");
+            s1.push(temp1.getData());
+            s2.push(temp2.getData());
+            temp1 = temp1.getNext();
+            temp2 = temp2.getNext();
+        }
+        // System.out.println(s1.isEmpty());
+        // System.out.println(s2.isEmpty());
+        while (!s1.isEmpty() && !s2.isEmpty()) {
+            // System.out.println("deepak");
+            ll.pushRight(s1.pop()+s2.pop());
+        }
+        return ll;
     }
 }
 
