@@ -30,18 +30,20 @@ class AddLargeNumbers {
         LinkedList ll = new LinkedList();
         Node temp1 = list1.getHead();
         Node temp2 = list2.getHead();
-        while (temp1 != null && temp2 != null) {
+        while (temp1 != null) {
             // System.out.println("sai");
             s1.push(temp1.getData());
-            s2.push(temp2.getData());
             temp1 = temp1.getNext();
+        }
+        while (temp2 != null) {   
+            s2.push(temp2.getData());
             temp2 = temp2.getNext();
         }
         // System.out.println(s1);
         // System.out.println(s2);
         // System.out.println(s2.isEmpty());
         int carry = 0;
-        while (!s1.isEmpty() && !s2.isEmpty()) {
+        while (!s1.isEmpty() || !s2.isEmpty()) {
             String str = "";
             int sum = carry + s1.pop() + s2.pop();//sum = 10
             str+=sum;//str = 10
