@@ -31,17 +31,20 @@ class AddLargeNumbers {
         Node temp1 = list1.getHead();
         Node temp2 = list2.getHead();
         while (temp1 != null && temp2 != null) {
-            // System.out.println("sai");
             s1.push(temp1.getData());
             s2.push(temp2.getData());
             temp1 = temp1.getNext();
             temp2 = temp2.getNext();
         }
-        // System.out.println(s1.isEmpty());
-        // System.out.println(s2.isEmpty());
         while (!s1.isEmpty() && !s2.isEmpty()) {
-            // System.out.println("deepak");
-            ll.pushRight(s1.pop()+s2.pop());
+            String sum = "";
+            int carry = 0;
+            sum += carry + s1.pop() + s2.pop();
+            System.out.println(s1.pop());
+            if (sum.length() == 2) {
+                String[] str = sum.split("");
+                carry = Integer.parseInt(str[0]);
+            }
         }
         return ll;
     }
