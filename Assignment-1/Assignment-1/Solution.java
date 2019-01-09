@@ -11,16 +11,17 @@ class AddLargeNumbers {
     }
 
     public static String digitsToNumber(LinkedList list) {
-        // System.out.println(list);
-        String str = "";
-        Node temp = list.getHead();
-        // System.out.println(temp.getData());
-        while (temp.getNext() != null) {
-            str += temp.getData();
-            temp = temp.getNext();
-        }
-        // System.out.println(str);
-        return str+temp.getData();
+        // // System.out.println(list);
+        // String str = "";
+        // Node temp = list.getHead();
+        // // System.out.println(temp.getData());
+        // while (temp.getNext() != null) {
+        //     str += temp.getData();
+        //     temp = temp.getNext();
+        // }
+        // // System.out.println(str);
+        // return str+temp.getData();
+        return null;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
