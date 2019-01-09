@@ -46,7 +46,7 @@ class AddLargeNumbers {
         // System.out.println(s2);
         // System.out.println(s2.isEmpty());
         int carry = 0;
-        while (!s1.isEmpty() && !s2.isEmpty()) {
+        while (!s1.isEmpty() || !s2.isEmpty()) {
             String str = "";
             int sum = carry + s1.pop() + s2.pop();//sum = 10
             str+=sum;//str = 10
