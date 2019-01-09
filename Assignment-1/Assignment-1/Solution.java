@@ -5,13 +5,19 @@ class AddLargeNumbers {
         LinkedList ll = new LinkedList();
         String[] str = number.split("");
     	for (int i = 0; i < str.length; i++) {
-            ll.pushRight(Integer.parseInt(str[i]));
+            ll.pushLeft(Integer.parseInt(str[i]));
         }
         return ll;
     }
 
     public static String digitsToNumber(LinkedList list) {
-        return null;
+        LinkedList ll = list;
+        String str = "";
+        while (ll.size() != 0) {
+            ll.popLeft();
+            str+=ll;
+        }
+        return str;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
