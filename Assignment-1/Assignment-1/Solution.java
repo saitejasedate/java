@@ -5,7 +5,7 @@ class AddLargeNumbers {
         LinkedList ll = new LinkedList();
         String[] str = number.split("");
     	for (int i = 0; i < str.length; i++) {
-            ll.pushLeft(Integer.parseInt(str[i]));
+            ll.pushRight(Integer.parseInt(str[i]));
         }
         return ll;
     }
