@@ -25,6 +25,9 @@ class AddLargeNumbers {
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         // System.out.println(list1);
         // System.out.println(list2);
+        if (list2.size() > list1.size()) {
+            list1 = list2;
+        }
         Stack<Integer> s1 = new Stack<Integer>();
         Stack<Integer> s2 = new Stack<Integer>();
         LinkedList ll = new LinkedList();
