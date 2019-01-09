@@ -7,7 +7,6 @@ class AddLargeNumbers {
     	for (int i = 0; i < str.length; i++) {
             ll.pushLeft(Integer.parseInt(str[i]));
         }
-        // System.out.println(ll);
         return ll;
     }
 
@@ -18,6 +17,7 @@ class AddLargeNumbers {
             str += temp.getData();
             temp.getNext();
         }
+        System.out.println(str);
         return str;
     }
 
