@@ -64,7 +64,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at AddLargeNumbers.digitsToNumber(Solution.java:16)
 	at Solution.main(Solution.java:63)
 ----------------------------------------
 
@@ -74,7 +74,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at AddLargeNumbers.digitsToNumber(Solution.java:16)
 	at Solution.main(Solution.java:63)
 ----------------------------------------
 
@@ -84,7 +84,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at AddLargeNumbers.digitsToNumber(Solution.java:16)
 	at Solution.main(Solution.java:63)
 ----------------------------------------
 
@@ -94,7 +94,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at AddLargeNumbers.digitsToNumber(Solution.java:16)
 	at Solution.main(Solution.java:63)
 ----------------------------------------
 
@@ -104,7 +104,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at AddLargeNumbers.digitsToNumber(Solution.java:16)
 	at Solution.main(Solution.java:63)
 ----------------------------------------
 
@@ -114,7 +114,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at AddLargeNumbers.digitsToNumber(Solution.java:16)
 	at Solution.main(Solution.java:63)
 ----------------------------------------
 
