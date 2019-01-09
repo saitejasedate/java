@@ -17,7 +17,7 @@ class AddLargeNumbers {
         System.out.println(temp.getData());
         while (temp.getNext() != null) {
             str += temp.getData();
-            temp.getNext();
+            temp = temp.getNext();
         }
         // System.out.println(str);
         return str;
