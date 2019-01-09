@@ -20,7 +20,7 @@ class AddLargeNumbers {
             temp = temp.getNext();
         }
         // System.out.println(str);
-        return str+temp.getData();
+        return str;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
