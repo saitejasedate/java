@@ -25,9 +25,14 @@ class AddLargeNumbers {
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         // System.out.println(list1);
         // System.out.println(list2);
-        if (list2.size() > list1.size()) {
+        if (list1.size() < list2.size()) {
+            LinkedList k = new LinkedList();
+            k = list1;
             list1 = list2;
+            list2 = k;
         }
+        System.out.println(list1);
+        System.out.println(list2);
         Stack<Integer> s1 = new Stack<Integer>();
         Stack<Integer> s2 = new Stack<Integer>();
         LinkedList ll = new LinkedList();
@@ -36,7 +41,9 @@ class AddLargeNumbers {
         while (temp1 != null) {
             // System.out.println("sai");
             s1.push(temp1.getData());
+            // s2.push(temp2.getData());
             temp1 = temp1.getNext();
+            // temp2 = temp2.getNext();
         }
         while (temp2 != null) {   
             s2.push(temp2.getData());
@@ -46,9 +53,10 @@ class AddLargeNumbers {
         // System.out.println(s2);
         // System.out.println(s2.isEmpty());
         int carry = 0;
-        while (!s1.isEmpty() || !s2.isEmpty()) {
+        int sum = 0;
+        while (!s2.isEmpty()) {
             String str = "";
-            int sum = carry + s1.pop() + s2.pop();//sum = 10
+            sum = carry + s1.pop() + s2.pop();//sum = 10
             str+=sum;//str = 10
             String[] arr = str.split("");
             if (str.length() == 2) {
@@ -59,9 +67,13 @@ class AddLargeNumbers {
                 ll.pushLeft(sum);
             }
         }
-        if (carry!=0) {
-            ll.pushLeft(carry);
+        while (!s1.isEmpty()) {
+            sum = s1.pop() + carry ;
+            ll.pushLeft(sum);
         }
+        // if (carry!=0) {
+        //     ll.pushLeft(carry);
+        // }
         return ll;
     }
 }
