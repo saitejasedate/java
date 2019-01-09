@@ -64,8 +64,8 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:16)
-	at Solution.main(Solution.java:49)
+	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -74,8 +74,8 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:16)
-	at Solution.main(Solution.java:49)
+	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -84,8 +84,8 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:16)
-	at Solution.main(Solution.java:49)
+	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -94,8 +94,8 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:16)
-	at Solution.main(Solution.java:49)
+	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -104,8 +104,8 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:16)
-	at Solution.main(Solution.java:49)
+	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -114,7 +114,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at AddLargeNumbers.digitsToNumber(Solution.java:16)
-	at Solution.main(Solution.java:49)
+	at AddLargeNumbers.digitsToNumber(Solution.java:18)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 
