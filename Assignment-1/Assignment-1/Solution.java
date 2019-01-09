@@ -12,7 +12,7 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
         // // System.out.println(list);
-        // String str = "";
+        String str = "";
         // Node temp = list.getHead();
         // // System.out.println(temp.getData());
         // while (temp.getNext() != null) {
