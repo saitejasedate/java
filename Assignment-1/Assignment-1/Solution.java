@@ -17,47 +17,35 @@ class AddLargeNumbers {
             str += temp.getData();
             temp = temp.getNext();
         }
-        // System.out.println(str);
         return str+temp.getData();
-        // return null;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        // System.out.println(list1);
-        // System.out.println(list2);
         if (list1.size() < list2.size()) {
             LinkedList k = new LinkedList();
             k = list1;
             list1 = list2;
             list2 = k;
         }
-        // System.out.println(list1);
-        // System.out.println(list2);
         Stack<Integer> s1 = new Stack<Integer>();
         Stack<Integer> s2 = new Stack<Integer>();
         LinkedList ll = new LinkedList();
         Node temp1 = list1.getHead();
         Node temp2 = list2.getHead();
         while (temp1 != null) {
-            // System.out.println("sai");
             s1.push(temp1.getData());
-            // s2.push(temp2.getData());
             temp1 = temp1.getNext();
-            // temp2 = temp2.getNext();
         }
         while (temp2 != null) {   
             s2.push(temp2.getData());
             temp2 = temp2.getNext();
         }
-        // System.out.println(s1);
-        // System.out.println(s2);
-        // System.out.println(s2.isEmpty());
         int carry = 0;
         int sum = 0;
-        while (!s2.isEmpty()) {
+        while (!s2.isEmpty() && !s1.isEmpty()) {
             String str = "";
-            sum = carry + s1.pop() + s2.pop();//sum = 10
-            str+=sum;//str = 10
+            sum = carry + s1.pop() + s2.pop();
+            str+=sum;
             String[] arr = str.split("");
             if (str.length() == 2) {
                 carry = Integer.parseInt(arr[0]);
@@ -67,13 +55,14 @@ class AddLargeNumbers {
                 ll.pushLeft(sum);
             }
         }
-        while (!s1.isEmpty()) {
-            sum = s1.pop() + carry ;
-            ll.pushLeft(sum);
-        }
-        // if (carry!=0) {
-        //     ll.pushLeft(carry);
+        // while (!s1.isEmpty()) {
+        //     sum = s1.pop() + carry ;
+        //     ll.pushLeft(sum);
         // }
+
+        if (carry!=0) {
+            ll.pushLeft(carry);
+        }
         return ll;
     }
 }
