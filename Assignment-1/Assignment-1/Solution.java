@@ -42,7 +42,7 @@ class AddLargeNumbers {
         }
         int carry = 0;
         int sum = 0;
-        while (!s2.isEmpty() && !s1.isEmpty()) {
+        while (!s2.isEmpty() || !s1.isEmpty()) {
             String str = "";
             sum = carry + s2.pop();
             str+=sum;
