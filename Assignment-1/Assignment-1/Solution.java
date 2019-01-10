@@ -44,7 +44,7 @@ class AddLargeNumbers {
         int sum = 0;
         while (!s2.isEmpty() && !s1.isEmpty()) {
             String str = "";
-            sum = carry + s1.pop() + s2.pop();
+            sum = carry + s2.pop();
             str+=sum;
             String[] arr = str.split("");
             if (str.length() == 2) {
@@ -55,14 +55,14 @@ class AddLargeNumbers {
                 ll.pushLeft(sum);
             }
         }
-        // while (!s1.isEmpty()) {
-        //     sum = s1.pop() + carry ;
-        //     ll.pushLeft(sum);
-        // }
-
-        if (carry!=0) {
-            ll.pushLeft(carry);
+        while (!s1.isEmpty()) {
+            sum += carry ;
+            ll.pushLeft(sum);
         }
+
+        // if (carry!=0) {
+        //     ll.pushLeft(carry);
+        // }
         return ll;
     }
 }
