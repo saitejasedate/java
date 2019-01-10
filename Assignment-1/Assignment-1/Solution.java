@@ -42,9 +42,9 @@ class AddLargeNumbers {
         }
         int carry = 0;
         int sum = 0;
-        while (!s2.isEmpty() || !s1.isEmpty()) {
+        while (!s2.isEmpty() && !s1.isEmpty()) {
             String str = "";
-            sum = carry + s2.pop();
+            sum = carry + s2.pop() + s1.pop();
             str+=sum;
             String[] arr = str.split("");
             if (str.length() == 2) {
@@ -60,9 +60,9 @@ class AddLargeNumbers {
             ll.pushLeft(sum);
         }
 
-        // if (carry!=0) {
-        //     ll.pushLeft(carry);
-        // }
+        if (carry!=0) {
+            ll.pushLeft(carry);
+        }
         return ll;
     }
 }
